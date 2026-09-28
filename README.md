@@ -1,0 +1,33 @@
+# Soko Moving Co. marketing site
+
+Static, responsive site using the approved Shipaton video's teal/cream/gold palette, animated type, floating boxes, fanned puzzle layouts and real app captures. Native CSS/IntersectionObserver animations; no runtime dependencies or analytics.
+
+## Local preview and checks
+
+```sh
+python3 -m http.server 8768 --bind 127.0.0.1
+npm install
+npm test
+```
+
+Tests use an installed Chrome by default (`CHROME` overrides its path). `SITE_URL` selects a deployed URL. Checks cover 320/390/768/1024/1440px, loaded images, horizontal overflow, anchors, motion pause, reduced motion, no-JavaScript content and the privacy page. Reports live in `docs/site-checks.json`; preview images go to `/tmp/soko-site-*-verified.png`.
+
+## Hosting
+
+Primary: Railway project `Soko Moving Co Website` (`3ec8b5c1-90b4-4be5-93e2-081681a931fc`), service `web` (`99d388e6-2559-4f19-9f6f-014ba5973aad`). Nginx listens on 8080. Public hostname: https://web-production-9a7dc.up.railway.app
+
+Deploy from this directory with `railway up --service web --detach`; check service status and `/health`, then run the browser checks against the public URL. Docker copies only public files, not docs/tests/git. No database, app backend, user accounts, email collection, paid plugins, or custom domain purchased.
+
+The existing GitHub Pages support/privacy URLs remain available. `privacy.html` is preserved unchanged; the support email and Apple EULA link remain on the home page. App Store links have not been changed.
+
+## Copy and release updates
+
+`index.html` is the authoritative source; `docs/copy.md` records its readable text and links. Save future copy edits in both. Do not promise all future content is free. The current CTA is **Play the beta**, linking to the existing TestFlight group. After the public App Store release is verified, replace the CTA and coming-soon wording with the actual store URL; update local copy and tests, then redeploy.
+
+No Suno music is published here. `assets/gameplay.mp4` is an audio-free excerpt from actual gameplay, not the music-led promotional video. The approved video remains in the main game project's Shipaton archive pending music-rights resolution.
+
+Domain shortlist and prices: `docs/domains.md`. Once Andy chooses and authorizes purchase, register it, add it using `railway domain --service web --port 8080 DOMAIN`, apply the exact returned DNS records, verify HTTPS, and update canonical/Open Graph URLs. Do not guess DNS targets or change registrar nameservers unnecessarily.
+
+## Asset provenance
+
+Source repository: `manyoneek/sokoban-ios`, `docs/shipaton-2026/motion/public/` (prepared from actual app captures), including corrected completion card and native Mac controls. Website derivatives are WebP at display-appropriate sizes and a muted H.264 gameplay clip. Brand box SVG follows the approved motion artwork. Microban credit is retained in the footer. No third-party stock assets or external fonts.
