@@ -1,0 +1,38 @@
+[
+  {
+    "width": 320,
+    "file": "privacy.html",
+    "status": 200,
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "file": "terms.html",
+    "status": 200,
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "file": "privacy.html",
+    "status": 200,
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "file": "terms.html",
+    "status": 200,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "file": "privacy.html",
+    "status": 200,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "file": "terms.html",
+    "status": 200,
+    "overflow": false
+  }
+]

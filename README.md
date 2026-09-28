@@ -18,7 +18,7 @@ Primary: Railway project `Soko Moving Co Website` (`3ec8b5c1-90b4-4be5-93e2-0816
 
 Deploy from this directory with `railway up --service web --detach`; check service status and `/health`, then run the browser checks against the public URL. Docker copies only public files, not docs/tests/git. No database, app backend, user accounts, email collection, paid plugins, or custom domain purchased.
 
-The existing GitHub Pages support/privacy URLs remain available. `privacy.html` is preserved unchanged; the support email and Apple EULA link remain on the home page. App Store links have not been changed.
+The existing GitHub Pages support/privacy URLs remain available. `privacy.html` and `terms.html` are hosted here; the Terms page retains Apple’s standard EULA as the governing app license. Legal copy is archived in `docs/legal-copy.md`. Remote legal-link update receipts are kept in the game repo under `docs/legal-links-20260928/`.
 
 ## Copy and release updates
 

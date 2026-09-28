@@ -111,4 +111,4 @@ Play the beta ↗ — https://testflight.apple.com/join/17faFuTp
 SokoMoving Co. — #
 Get in touch ↗ — mailto:manyoneek@icloud.com
 Privacy — privacy.html
-Terms — https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Terms — https://web-production-9a7dc.up.railway.app/terms.html
