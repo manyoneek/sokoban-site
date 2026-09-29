@@ -1,4 +1,10 @@
-# Domain shortlist — checked 2026-09-28
+# Domain — registered 2026-09-29
+
+**Purchased `sokomoving.co` through Cloudflare for USD 30 total for one year.** Registrar status Active; expiration September 29, 2027. Auto-renew enabled, currently USD 30/year, scheduled August 30, 2027. Cloudflare account access and login are saved in 1Password. Website hosting remains Railway. See README for DNS/deployment details.
+
+The following is historical research from September 28, before purchase.
+
+## Original shortlist — checked 2026-09-28
 
 Andy’s preferred name: **sokomoving.co** (2026-09-28). Earlier shortlist favored sokomovingco.com on renewal cost; brand preference now takes precedence.
 No domain has been purchased or reserved. Earlier RDAP checks returned 404, but the .co response actually says no RDAP service is available, so that result is inconclusive, NOT evidence of availability. Squarespace’s fully loaded exact-name search now offers sokomoving.co for $40; final availability remains subject to checkout. `playsoko.com` returned a registered record.
