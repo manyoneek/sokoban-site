@@ -1,13 +1,13 @@
 # Website copy — local source record
 
-Source: index.html. CTA remains TestFlight until public App Store release.
+Source: index.html. Public release: all download CTAs link to the App Store.
 
 Skip to content
 Soko
 Moving Co.
 The job
 The puzzles
-Play the beta ↗
+Download on the App Store ↗
 
 A BOX-PUSHING PUZZLE WITH A MOVING-DAY TWIST
 
@@ -17,12 +17,12 @@ on a classic.
 You’ve landed your first job at Soko Moving Co.
 Getting the boxes in is easy. Finding the right moves? That’s the puzzle.
 
-Play the beta
+Download on the App Store
 ↗
 Meet your new job
 ↓
 
-Made for iPhone, iPad & Mac · Coming to the App Store
+Made for iPhone, iPad & Mac · Now on the App Store
 
 Small room. Big puzzle.
 One box at a time.
@@ -80,10 +80,10 @@ is waiting.
 
 A new room. A few boxes. Your next good idea.
 
-Play the beta
+Download on the App Store
 ↗
 
-TestFlight beta · Requires iOS / iPadOS 27 or macOS 27.
+Requires iOS / iPadOS 27 or macOS 27.
 
 Soko
 Moving Co.
@@ -103,12 +103,12 @@ Skip to content — #main
 SokoMoving Co. — #
 The job — #the-job
 The puzzles — #the-puzzles
-Play the beta ↗ — https://testflight.apple.com/join/17faFuTp
-Play the beta ↗ — https://testflight.apple.com/join/17faFuTp
+Download on the App Store ↗ — https://apps.apple.com/app/soko-moving-co/id6783096217
+Download on the App Store ↗ — https://apps.apple.com/app/soko-moving-co/id6783096217
 Meet your new job ↓ — #the-job
 Let’s get moving ↓ — #the-puzzles
-Play the beta ↗ — https://testflight.apple.com/join/17faFuTp
+Download on the App Store ↗ — https://apps.apple.com/app/soko-moving-co/id6783096217
 SokoMoving Co. — #
 Get in touch ↗ — mailto:manyoneek@icloud.com
 Privacy — privacy.html
-Terms — https://web-production-9a7dc.up.railway.app/terms.html
+Terms — terms.html
