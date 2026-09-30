@@ -22,7 +22,7 @@ The existing GitHub Pages support/privacy URLs remain available. `privacy.html` 
 
 ## Copy and release updates
 
-`index.html` is the authoritative source; `docs/copy.md` records its readable text and links. Save future copy edits in both. Do not promise all future content is free. The current CTA is **Download on the App Store**, linking to https://apps.apple.com/app/soko-moving-co/id6783096217 for the public iPhone, iPad, and Mac release.
+`index.html` is the authoritative source; `docs/copy.md` records its readable text and links. Save future copy edits in both. Do not promise all future content is free. The hero and closing section use the official Apple download badges, with separate App Store URLs for iPhone/iPad (`?platform=iphone`) and Mac (`?platform=mac`). The header Download button jumps to the platform choices. Badge SVGs are hosted locally, unmodified, at 48px high with at least 12px clear space. Sources: https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg and https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-mac-app-store.svg .
 
 No Suno music is published here. `assets/gameplay.mp4` is an audio-free excerpt from actual gameplay, not the music-led promotional video. The approved video remains in the main game project's Shipaton archive pending music-rights resolution.
 

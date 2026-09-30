@@ -1,13 +1,13 @@
 # Website copy — local source record
 
-Source: index.html. Public release: all download CTAs link to the App Store.
+Source: index.html. Public release: separate official Apple badges for iPhone/iPad and Mac; header Download jumps to both choices.
 
 Skip to content
 Soko
 Moving Co.
 The job
 The puzzles
-Download on the App Store ↗
+Download ↓
 
 A BOX-PUSHING PUZZLE WITH A MOVING-DAY TWIST
 
@@ -17,8 +17,8 @@ on a classic.
 You’ve landed your first job at Soko Moving Co.
 Getting the boxes in is easy. Finding the right moves? That’s the puzzle.
 
-Download on the App Store
-↗
+Download on the App Store for iPhone and iPad
+Download on the Mac App Store
 Meet your new job
 ↓
 
@@ -80,8 +80,8 @@ is waiting.
 
 A new room. A few boxes. Your next good idea.
 
-Download on the App Store
-↗
+Download on the App Store for iPhone and iPad
+Download on the Mac App Store
 
 Requires iOS / iPadOS 27 or macOS 27.
 
@@ -103,11 +103,13 @@ Skip to content — #main
 SokoMoving Co. — #
 The job — #the-job
 The puzzles — #the-puzzles
-Download on the App Store ↗ — https://apps.apple.com/app/soko-moving-co/id6783096217
-Download on the App Store ↗ — https://apps.apple.com/app/soko-moving-co/id6783096217
+Download ↓ — #play
+Download on the App Store for iPhone and iPad — https://apps.apple.com/app/soko-moving-co/id6783096217?platform=iphone
+Download on the Mac App Store — https://apps.apple.com/app/soko-moving-co/id6783096217?platform=mac
 Meet your new job ↓ — #the-job
 Let’s get moving ↓ — #the-puzzles
-Download on the App Store ↗ — https://apps.apple.com/app/soko-moving-co/id6783096217
+Download on the App Store for iPhone and iPad — https://apps.apple.com/app/soko-moving-co/id6783096217?platform=iphone
+Download on the Mac App Store — https://apps.apple.com/app/soko-moving-co/id6783096217?platform=mac
 SokoMoving Co. — #
 Get in touch ↗ — mailto:manyoneek@icloud.com
 Privacy — privacy.html
