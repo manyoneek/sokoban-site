@@ -39,3 +39,18 @@ Registered `sokomoving.co` via Cloudflare for USD 30 for one year, expiring Sept
 Railway custom-domain ID: `254753d0-04db-452d-9f6d-35ff2cb1395a`, service `web`, port 8080. Apex CNAME points to `vcnywfuu.up.railway.app`, DNS-only, automatic TTL. Railway ownership TXT is stored in Cloudflare; retrieve current required value with `railway domain status sokomoving.co --json`.
 
 The existing Railway hostname and legal URLs remain available. `www` is not configured: Railway rejected a second custom hostname due to the current plan limit; no paid upgrade was made.
+
+## Personal 2.0 beta level catalog
+
+`/levels/manifest.json` uses `Cache-Control: no-cache` and ETag; immutable catalogs
+live at `/levels/<sha256>.json`. The app verifies the hash, format, supported
+components/rules and geometry before activating a catalog at its selector.
+No scripts or user data are served. Existing static hosting is reused.
+
+Generate/stage from the game worktree with:
+`python3 godot/tools/publish_catalog.py --site /Users/mannyoneek/repos/sokoban-site`
+The tool validates geometry and replays all seven bundled solutions before staging.
+Commit the new immutable JSON and manifest together; `railway up --service web
+--detach` deploys the static artifact. Keep previous hash files for rollback;
+point the manifest back to a previous catalog rather than editing hash files.
+First loader-enabled app build is 2.0(90); older builds do not fetch this endpoint.

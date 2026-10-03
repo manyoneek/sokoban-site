@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "rulesVersion": 1,
+  "requiredComponents": [
+    "box",
+    "rack",
+    "sofa_l"
+  ],
+  "hash": "a13bfa2d41cc53f6ada64269b7386fb900a541d7733b84f1bfa234673b2eb0eb",
+  "catalog": "a13bfa2d41cc53f6ada64269b7386fb900a541d7733b84f1bfa234673b2eb0eb.json"
+}
